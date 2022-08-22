@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1C349"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/rocky"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="309dp"
+        android:layout_marginBottom="101dp"
+        android:backgroundTint="#243010"
+        android:text="حجر"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Paper"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="101dp"
+        android:backgroundTint="#243010"
+        android:text="ورق"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m89"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="101dp"
+        android:backgroundTint="#243010"
+        android:text="مقص"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/Pselectionimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="326dp" />
+
+    <ImageView
+        android:id="@+id/Cselectionimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="330dp" />
+
+    <TextView
+        android:id="@+id/PSelection"
+        android:layout_width="98dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="480dp"
+        android:text="Your Choice"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Pscore"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="261dp"
+        android:background="#CAD593"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/Cscore"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="264dp"
+        android:background="#CAD593"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/Cselection"
+        android:layout_width="83dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="503dp"
+        android:text="com Choice"
+        android:textSize="20sp" />
+
+</RelativeLayout>
